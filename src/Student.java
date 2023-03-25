@@ -6,14 +6,13 @@ public class Student {
         private int age;
         private String className;
 
-        // Constructor
         public Student(String name, int age, String className) {
             this.name = name;
             this.age = age;
             this.className = className;
         }
 
-        // Getters
+
         public String getName() {
             return name;
         }
@@ -26,7 +25,7 @@ public class Student {
             return className;
         }
 
-        // Setters
+
         public void setName(String name) {
             this.name = name;
         }
@@ -46,7 +45,7 @@ public class Student {
 
             System.out.print("Enter student age: ");
             int age = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character left by nextInt()
+            scanner.nextLine();
 
             System.out.print("Enter student class: ");
             String className = scanner.nextLine();
